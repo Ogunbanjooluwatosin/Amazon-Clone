@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box;
+}
+
+
+
+.navbar{
+    height:60px;
+    background-color: #0F1111;
+    color:white;
+    /* display:flex; */
+    align-items: center;
+}
+
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+
+
+
+.logo{
+    position: relative;
+    float: left;
+    line-height: 0;
+    align-items: center;
+    padding: 5px 10px 10px 10px;
+
+}
+
+
+.logo img{
+    object-fit: contain;
+    height:50px;
+    width:100%;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+
+/* box2 */
+.add-first{
+    color:#cccccc;
+    font: size 0.85rem;
+    padding: 0 9px 0 9px;
+    margin: 5px 2px 5px 0;
+}
+.nav-address{
+    display:flex;
+    flex-direction:row;
+    border: 2px solid transparent;
+    border: 1.5px solid white;
+}
+.nav-address>p{
+    display:flex;
+    flex-direction:column
+}
+.nigeria{
+    font-weight:600;
+    color:white
+}
+.add-second{
+    font-size:1rem;
+    margin-left:1px;
+}
+
+.add-icon{
+    right:20px;
+    display:flex;
+    align-items:center
+}
+
